@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="inputstream.mpd" version="1.2.15" name="InputStream MPEG DASH" provider-name="peak3d">
+<addon id="inputstream.mpd" version="1.2.16" name="InputStream MPEG DASH" provider-name="peak3d">
   <requires>
     <import addon="kodi.inputstream" version="1.0.5"/>
   </requires>
-  <extension point="kodi.inputstream" name="mpd" extension=".mpd" tags="true" listitemprops="license_type|license_key|license_data" library_linux="inputstream.mpd.so.1.2.15"/>
+  <extension point="kodi.inputstream" name="mpd" extension=".mpd" tags="true" listitemprops="license_type|license_key|license_data" library_linux="inputstream.mpd.so.1.2.16"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">InputStream Client for MPEG DASH files</summary>
     <description lang="en">InputStream Client for MPEG DASH files</description>
@@ -200,11 +200,5 @@ https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary
   </extension>
 </addon>
 
-<addon id="pvr.zattoo" version="0.1.18" name="Zattoo PVR Client" provider-name="Johannes Trum">
-  <extension point="xbmc.pvrclient" library_linux="pvr.zattoo.so.0.1.18"/>
-  <extension point="xbmc.addon.metadata">
-    <platform>linux</platform>
-  </extension>
-</addon>
 
 </addons>
